@@ -3,4 +3,4 @@ CREATE TABLE category (
   id PRIMARY KEY NOT NULL,
   name UNIQUE NOT NULL,
   description TEXT NOT NULL
-)
+);

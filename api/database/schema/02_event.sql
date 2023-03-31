@@ -11,4 +11,4 @@ CREATE TABLE event (
   organizer_id INTEGER REFERENCES users(id),
   created_at TIMESTAMP default now(),
   updated_at TIMESTAMP
-)
+);

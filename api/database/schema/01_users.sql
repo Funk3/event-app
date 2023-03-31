@@ -6,4 +6,4 @@ CREATE TABLE users (
   password VARCHAR(30) NOT NULL
   created_at TIMESTAMP DEFAULT now(),
   updated_at TIMESTAMP
-)
+);

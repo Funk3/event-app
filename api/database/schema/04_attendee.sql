@@ -6,4 +6,4 @@ CREATE TABLE attendee (
   status VARCHAR(30) NOT NULL,
   created_at TIMESTAMP default now(),
   updated_at TIMESTAMP
-)
+);
