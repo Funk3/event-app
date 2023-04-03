@@ -8,6 +8,7 @@ CREATE TABLE event (
   end_date_time DATETIME NOT NULL,
   latitude VARCHAR(40) NOT NULL,
   longitude VARCHAR(40) NOT NULL,
+  location_id INTEGER REFERENCES place(id),
   organizer_id INTEGER REFERENCES users(id),
   created_at TIMESTAMP default now(),
   updated_at TIMESTAMP
