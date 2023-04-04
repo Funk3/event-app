@@ -3,7 +3,6 @@ CREATE TABLE place (
   id SERIAL PRIMARY KEY UNIQUE NOT NULL,
   name VARCHAR(40) UNIQUE NOT NULL,
   description TEXT NOT NULL,
-  category_id INTEGER REFERENCES category(id),
   owner_id INTEGER REFERENCES users(id),
   address TEXT NOT NULL,
   latitude VARCHAR(40) NOT NULL,
