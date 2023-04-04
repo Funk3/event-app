@@ -3,7 +3,7 @@ CREATE TABLE users (
   id SERIAL PRIMARY KEY NOT NULL,
   username VARCHAR(15) UNIQUE NOT NULL,
   email VARCHAR(255) UNIQUE NOT NULL,
-  password VARCHAR(30) NOT NULL,
+  password VARCHAR(255) NOT NULL,
   is_admin BOOLEAN NOT NULL,
   created_at TIMESTAMP DEFAULT now(),
   updated_at TIMESTAMP

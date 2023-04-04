@@ -1,6 +1,6 @@
 # Set the database name and credentials
 DB_NAME="event_app"
-DB_USER="dad"
+DB_USER="zak"
 DB_PASS="dadrock"
 
 # Create the database and grant permissions to the user
