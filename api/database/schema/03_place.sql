@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS category CASCADE;
 CREATE TABLE place (
   id SERIAL PRIMARY KEY NOT NULL,
-  name UNIQUE NOT NULL,
+  name VARCHAR(40) UNIQUE NOT NULL,
   description TEXT NOT NULL,
   category_id INTEGER REFERENCES category(id),
   owner_id INTEGER REFERENCES users(id),
